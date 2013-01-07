@@ -8,7 +8,7 @@ $(call inherit-product, vendor/cm/config/common_mini_phone.mk)
 $(call inherit-product, device/samsung/beni/full_beni.mk)
 
 # Release name and versioning
-PRODUCT_RELEASE_NAME := GalaxyFit
+PRODUCT_RELEASE_NAME := GalaxyBeni
 PRODUCT_VERSION_DEVICE_SPECIFIC := -GT-S5670
 -include vendor/cm/config/common_versions.mk
 
@@ -17,4 +17,4 @@ PRODUCT_DEVICE := beni
 PRODUCT_NAME := cm_beni
 
 ## Bootanimation
-TARGET_BOOTANIMATION_NAME := 240
+TARGET_BOOTANIMATION_NAME := vertical-320x480
