@@ -35,10 +35,10 @@ PRODUCT_PACKAGES += \
 
 ## Ramdisk
 PRODUCT_COPY_FILES += \
-    device/samsung/beni/ramdisk/init.gt-s5670board.rc:root/init.gt-s5670board.rc \
-    device/samsung/beni/ramdisk/init.gt-s5670board.usb.rc:root/init.gt-s5670board.usb.rc \
-    device/samsung/beni/ramdisk/ueventd.gt-s5670board.rc:root/ueventd.gt-s5670board.rc \
-    device/samsung/beni/ramdisk/BENI.rle:root/BENI.rle
+    device/samsung/msm7x27-common/ramdisk/init.device.rc:root/init.gt-s5670board.rc \
+    device/samsung/msm7x27-common/ramdisk/init.gt-device.usb.rc:root/init.gt-s5670board.usb.rc \
+    device/samsung/msm7x27-common/ramdisk/ueventd.device.rc:root/ueventd.gt-s5670board.rc \
+    device/samsung/msm7x27-common/ramdisk/BENI.rle:root/BENI.rle
 
 ## LDPI assets
 PRODUCT_AAPT_PREF_CONFIG := ldpi
