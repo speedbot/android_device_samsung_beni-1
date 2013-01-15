@@ -41,4 +41,5 @@ PRODUCT_COPY_FILES += \
     device/samsung/beni/ramdisk/BENI.rle:root/BENI.rle
 
 ## LDPI assets
+PRODUCT_AAPT_CONFIG := normal mdpi ldpi
 PRODUCT_AAPT_PREF_CONFIG := ldpi
